@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Produto
+
+# Model Form Field configuration
+form: $/brenner/projeto/models/produto/fields.yaml
+
+# Model Class name
+modelClass: Brenner\Projeto\Models\Produto
+
+# Default redirect location
+defaultRedirect: brenner/projeto/produto
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: brenner/projeto/produto/update/:id
+    redirectClose: brenner/projeto/produto
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: brenner/projeto/produto
+    redirectClose: brenner/projeto/produto
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

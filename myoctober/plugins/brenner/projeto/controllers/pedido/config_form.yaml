@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Pedido
+
+# Model Form Field configuration
+form: $/brenner/projeto/models/pedido/fields.yaml
+
+# Model Class name
+modelClass: Brenner\Projeto\Models\Pedido
+
+# Default redirect location
+defaultRedirect: brenner/projeto/pedido
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: brenner/projeto/pedido/update/:id
+    redirectClose: brenner/projeto/pedido
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: brenner/projeto/pedido
+    redirectClose: brenner/projeto/pedido
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

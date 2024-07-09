@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Cliente
+
+# Model Form Field configuration
+form: $/brenner/projeto/models/cliente/fields.yaml
+
+# Model Class name
+modelClass: Brenner\Projeto\Models\Cliente
+
+# Default redirect location
+defaultRedirect: brenner/projeto/cliente
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: brenner/projeto/cliente/update/:id
+    redirectClose: brenner/projeto/cliente
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: brenner/projeto/cliente
+    redirectClose: brenner/projeto/cliente
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

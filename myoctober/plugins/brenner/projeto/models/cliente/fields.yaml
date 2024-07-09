@@ -1,0 +1,17 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    
+    id:
+        label: ID
+        disabled: true
+    
+    nome:
+        label: nome
+        disabled: false
+    
+    sexo:
+        label: sexo
+        disabled: false
