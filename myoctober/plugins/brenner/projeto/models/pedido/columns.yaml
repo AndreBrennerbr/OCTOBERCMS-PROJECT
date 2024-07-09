@@ -6,3 +6,21 @@ columns:
     id:
         label: ID
         searchable: true
+    
+    cliente_id:
+        label: Cliente
+        searchable: true
+   
+    quantidade:
+        label: Quantidade
+        searchable: true
+    
+    total_pedido:
+        label: Valor Total
+        searchable: true
+    status:
+        label: Status da Compra
+        searchable: true
+    paid_at:
+        label: Pago no dia
+        searchable: true

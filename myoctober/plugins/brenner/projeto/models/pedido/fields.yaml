@@ -6,3 +6,24 @@ fields:
     id:
         label: ID
         disabled: true
+
+    cliente_id:
+        label: Cliente
+        disabled: false    
+    
+    quantidade:
+        label: Quantidade
+        disabled: false    
+    
+    total_pedido:
+        label: Valor Total
+        disabled: true    
+    
+    status:
+        label: Status da Compra
+        disabled: false    
+    
+    paid_at:
+        label: Pago no dia
+        disabled: true
+            
