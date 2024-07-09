@@ -6,3 +6,10 @@ fields:
     id:
         label: ID
         disabled: true
+    nome:
+        label: Nome
+        disabled: false
+    preço:
+        label: Preço
+        disabled: false
+

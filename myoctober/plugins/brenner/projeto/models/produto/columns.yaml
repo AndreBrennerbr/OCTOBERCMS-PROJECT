@@ -6,3 +6,11 @@ columns:
     id:
         label: ID
         searchable: true
+    nome:
+        label: Nome
+        searchable: true
+    preço:
+        label: Preço
+        searchable: true
+
+
