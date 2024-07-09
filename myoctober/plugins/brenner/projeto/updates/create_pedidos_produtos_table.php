@@ -20,6 +20,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('produto_id'); 
             $table->unsignedBigInteger('pedido_id');
+            $table->integer('quantidade')->unsigned();
             $table->timestamps();
 
             $table->foreign('pedido_id')->references('id')->on('brenner_projeto_pedidos');

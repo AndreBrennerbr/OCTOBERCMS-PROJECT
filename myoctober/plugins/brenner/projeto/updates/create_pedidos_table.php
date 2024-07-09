@@ -20,7 +20,6 @@ return new class extends Migration
             
             $table->id();
             $table->unsignedBigInteger('cliente_id'); 
-            $table->integer('quantidade')->nullable(false);
             $table->double('total_pedido')->nullable(false);
             $table->enum('status',['started','fail','paid']);
             $table->timestamp('paid_at')->nullable(true);
