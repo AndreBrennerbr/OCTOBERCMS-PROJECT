@@ -10,10 +10,6 @@ columns:
     cliente_id:
         label: Cliente
         searchable: true
-   
-    quantidade:
-        label: Quantidade
-        searchable: true
     
     total_pedido:
         label: Valor Total
