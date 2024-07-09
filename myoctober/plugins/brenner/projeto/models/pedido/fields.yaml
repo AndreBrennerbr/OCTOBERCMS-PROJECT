@@ -11,10 +11,6 @@ fields:
         label: Cliente
         disabled: false    
     
-    quantidade:
-        label: Quantidade
-        disabled: false    
-    
     total_pedido:
         label: Valor Total
         disabled: true    
@@ -26,4 +22,4 @@ fields:
     paid_at:
         label: Pago no dia
         disabled: true
-            
+
